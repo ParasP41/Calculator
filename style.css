@@ -5,10 +5,11 @@ body
 .d > button
 { 
     border: 2px solid black;
-    border-radius: 25px;
-    height: 3rem;
-    width: 3rem;
+    border-radius: 60px;
+    height: 5rem;
+    width: 5rem;
     margin: 0.3rem;
+    font-size: 35px;
 }
 .contain
 {
@@ -18,12 +19,12 @@ body
 }
 .d5 > :first-child
 {
-    width: 7rem;
+    width: 11rem;
 }
 input
 {
-    width: 14rem;
-    height:2rem;
+    width: 22rem;
+    height:3rem;
     text-align: right;
 }
 .orange
@@ -39,4 +40,25 @@ input
 {
     background-color: black;
     color: white;
+}
+
+
+@media (max-width:398px) {
+.d > button
+{
+    height: 3rem;
+    width: 3rem;  
+    border-radius: 50px; 
+    font-size: 20px;
+}
+.d5 > :first-child
+{
+    width: 7rem;
+} 
+input
+{
+    width: 14rem;
+    height: 2rem;   
+}
+
 }
