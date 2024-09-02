@@ -3,10 +3,11 @@ let inp=  document.querySelector('input')
 let p=document.getElementById("pi");
 p.addEventListener("click", function()
 {
-    let v=Math.PI;
+    let v=3.14;
     p.textContent=v;
       
 });
+
 
  let btn=  document.querySelectorAll('button')
    for(let i of btn){
